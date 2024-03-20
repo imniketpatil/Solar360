@@ -1,0 +1,108 @@
+.nav-item {
+  margin-right: 3rem;
+  text-align: end;
+  font-size: large;
+  font-weight: 500;
+}
+
+.hero {
+  background-blend-mode: overlay;
+  background-image: url("./asset/background_image.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-size: cover; /* or background-size: contain; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  filter: brightness(120%);
+}
+.hero h3 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  filter: brightness(120%);
+}
+.contact-form {
+  height: 50vh;
+  background-color: #22223b;
+  border-top: 1px solid white;
+}
+.contact-form h1 {
+  color: white;
+}
+
+/*************** Form *********************/
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-form {
+  width: 45rem;
+}
+.container-form h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+#free {
+  color: #03071e;
+}
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #dad8ce;
+  border-radius: 1rem;
+}
+
+input,
+textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+
+input::placeholder {
+  color: #666;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #1c87c9;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+button:hover {
+  background: #2371a0;
+}
+/******************** Footer *********************/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #003049;
+}
+footer h1,
+h3,
+h2 {
+  color: white;
+}
+.copyright {
+  background-color: #03071e;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 20px, 0;
+}
